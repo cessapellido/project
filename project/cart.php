@@ -6,9 +6,6 @@ session_start();
 
 $user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
-}
 
 if(isset($_POST['update_cart'])){
    $cart_id = $_POST['cart_id'];
