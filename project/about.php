@@ -140,88 +140,6 @@ $user_id = $_SESSION['user_id'];
 
 </section>
 
-<section class="authors">
-
-   <h1 class="title">SALE PRODUCTS</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/F1.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>White Dress</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/F2.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>Blue Blouse</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/F3.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>Checkered Blouse</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/F4.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>Plain Shirt</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/F5.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>Black Tennis Skirt</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/F6.jpg" alt="">
-         <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-         </div>
-         <h3>Brown Trouser </h3>
-      </div>
-
-   </div>
-
-</section>
-
-
-
-
-
-
-
 <?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->
@@ -229,3 +147,4 @@ $user_id = $_SESSION['user_id'];
 
 </body>
 </html>
+
