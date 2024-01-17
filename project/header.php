@@ -26,7 +26,7 @@ if(isset($message)){
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Closet.360</a>
+         <a href="home.php" class="logo">Iwata.Appliances</a>
 
          <nav class="navbar">
             <a href="home.php">Home</a>

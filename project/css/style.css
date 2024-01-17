@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
-   --black:#000000;
-   --gray:#66666E;
+   --night-blue:#151854;
+   --blueberry:#2B547E;
    --white:#fff;
-   --light-black:#333;
+   --charcoal-blue:#36454F;
    --gold:#C89933;
    --light-color:#666;
-   --light-white:#ccc;
+   --columbia-blue:#87AFC7;
    --light-bg:#f5f5f5;
-   --border:.1rem solid var(--light-black);
+   --border:.1rem solid var(--charcoal-blue);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
@@ -23,7 +23,7 @@
 }
 
 *::selection{
-   background-color: var(--black);
+   background-color: var(--night-blue);
    color:var(--white);
 }
 
@@ -37,7 +37,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--black);
+   background-color: var(--night-blue);
 }
 
 html{
@@ -54,7 +54,7 @@ section{
    text-align: center;
    border:var(--border);
    background-color: var(--white);
-   color:var(--gray);
+   color:var(--blueberry);
    font-size: 2rem;
 }
 
@@ -74,12 +74,12 @@ section{
 
 .message span{
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .message i{
    cursor: pointer;
-   color:var(--gray);
+   color:var(--blueberry);
    font-size: 2.5rem;
 }
 
@@ -91,7 +91,7 @@ section{
    text-align: center;
    margin-bottom: 2rem;
    text-transform: uppercase;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    font-size: 4rem;
 }
 
@@ -112,12 +112,12 @@ section{
 .btn:hover,
 .option-btn:hover,
 .delete-btn:hover{
-   background-color: var(--light-black);
+   background-color: var(--charcoal-blue);
 }
 
 .white-btn,
 .btn{
-   background-color: var(--black);
+   background-color: var(--night-blue);
 }
 
 .option-btn{
@@ -125,12 +125,12 @@ section{
 }
 
 .delete-btn{
-   background-color: var(--gray);
+   background-color: var(--blueberry);
 }
 
 .white-btn:hover{
    background-color: var(--white);
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .heading{
@@ -140,7 +140,7 @@ section{
    align-items: center;
    justify-content: center;
    gap:1rem;
-   background: url(../images/heading-clothes.jpeg) no-repeat;
+   background: url(../images/OFFICE-EQUIPMENT.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    text-align: center;
@@ -148,7 +148,7 @@ section{
 
 .heading h3{
    font-size: 5rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    text-transform: uppercase;
 }
 
@@ -158,7 +158,7 @@ section{
 }
 
 .heading p a{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .heading p a:hover{
@@ -195,7 +195,7 @@ section{
    font-size: 3rem;
    margin-bottom: 1rem;
    text-transform: uppercase;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .form-container form .box{
@@ -204,7 +204,7 @@ section{
    background-color: var(--light-bg);
    padding:1.2rem 1.4rem;
    font-size: 1.8rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    border:var(--border);
    margin:1rem 0;
 }
@@ -212,11 +212,11 @@ section{
 .form-container form p{
    padding-top: 1.5rem;
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .form-container form p a{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .form-container form p a:hover{
@@ -260,11 +260,11 @@ section{
 .header .header-1 .flex .share a{
    font-size: 2.5rem;
    margin-right: 1.5rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .header .header-1 .flex .share a:hover{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .header .header-1 .flex p{
@@ -273,7 +273,7 @@ section{
 }
 
 .header .header-1 .flex p a{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .header .header-1 .flex p a:hover{
@@ -282,7 +282,7 @@ section{
 
 .header .header-2 .flex .logo{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .header .header-2 .flex .navbar a{
@@ -292,19 +292,19 @@ section{
 }
 
 .header .header-2 .flex .navbar a:hover{
-   color:var(--black);
+   color:var(--night-blue);
    text-decoration: underline;
 }
 
 .header .header-2 .flex .icons > *{
    font-size: 2.5rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    cursor: pointer;
    margin-left: 1.5rem;
 }
 
 .header .header-2 .flex .icons > *:hover{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 #menu-btn{
@@ -336,7 +336,7 @@ section{
 }
 
 .header .header-2 .flex .user-box p span{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .header .header-2 .flex .user-box .delete-btn{
@@ -345,13 +345,14 @@ section{
 
 .home{
    min-height: 70vh;
-   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/home-clothes.jpeg) no-repeat;
+   background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/home-cover.jpg) no-repeat;
    background-size: cover;
    background-position: center;
    display: flex;
    align-items: center;
    justify-content: center;
 }
+
 
 .home .content{
    text-align: center;
@@ -366,7 +367,7 @@ section{
 
 .home .content p{
    font-size:1.8rem;
-   color:var(--light-white);
+   color:var(--columbia-blue);
    padding:1rem 0;
    line-height: 1.5;
 }
@@ -398,7 +399,7 @@ section{
 .products .box-container .box .name{
    padding:1rem 0;
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .products .box-container .box .qty{
@@ -417,7 +418,7 @@ section{
    padding:1rem;
    font-size: 2.5rem;
    color:var(--white);
-   background-color: var(--gray);
+   background-color: var(--blueberry);
 }
 
 .about .flex{
@@ -444,7 +445,7 @@ section{
 
 .about .flex .content h3{
    font-size: 3rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    text-transform: uppercase;
 }
 
@@ -456,7 +457,7 @@ section{
 }
 
 .home-contact{
-   background-color: var(--light-black);
+   background-color: var(--charcoal-blue);
 }
 
 .home-contact .content{
@@ -474,7 +475,7 @@ section{
 .home-contact .content p{
    padding:1rem 0;
    line-height: 1.5;
-   color:var(--light-white);
+   color:var(--columbia-blue);
    font-size: 1.7rem;
 }
 
@@ -531,7 +532,7 @@ section{
 
 .reviews .box-container .box h3{
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    margin-top: 1rem;
 }
 
@@ -578,17 +579,17 @@ section{
    border:var(--border);
    display: block;
    margin-top: 1rem;
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .authors .box-container .box .share a:hover{
-   background-color: var(--black);
+   background-color: var(--night-blue);
    color:var(--white);
 }
 
 .authors .box-container .box h3{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--night-blue);
    padding:1.5rem;
    background-color: var(--white);
 }
@@ -608,7 +609,7 @@ section{
    font-size: 2.5rem;
    text-transform: uppercase;
    margin-bottom: 1rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .contact form .box{
@@ -618,7 +619,7 @@ section{
    background-color: var(--white);
    padding:1.2rem 1.4rem;
    font-size: 1.8rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    border-radius: .5rem;
 }
 
@@ -654,13 +655,13 @@ section{
    width: 4.5rem;
    line-height: 4.5rem;
    font-size: 2rem;
-   background-color: var(--gray);
+   background-color: var(--blueberry);
    color:var(--white);
    border-radius: .5rem;
 }
 
 .shopping-cart .box-container .box .fa-times:hover{
-   background-color: var(--light-black);
+   background-color: var(--charcoal-blue);
 }
 
 .shopping-cart .box-container .box img{
@@ -670,13 +671,13 @@ section{
 .shopping-cart .box-container .box .name{
    padding:1rem 0;
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .shopping-cart .box-container .box .price{
    padding:1rem 0;
    font-size: 2.5rem;
-   color:var(--gray);
+   color:var(--blueberry);
 }
 
 .shopping-cart .box-container .box input[type="number"]{
@@ -685,7 +686,7 @@ section{
    border-radius: .5rem;
    padding:1.2rem 1.4rem;
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    width: 9rem;
 }
 
@@ -696,7 +697,7 @@ section{
 }
 
 .shopping-cart .box-container .box .sub-total span{
-   color:var(--gray);
+   color:var(--blueberry);
 }
 
 .shopping-cart .cart-total{
@@ -715,7 +716,7 @@ section{
 }
 
 .shopping-cart .cart-total p span{
-   color:var(--gray);
+   color:var(--blueberry);
 }
 
 .shopping-cart .cart-total .flex{
@@ -741,7 +742,7 @@ section{
 
 .display-order p{
    background-color: var(--light-bg);
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    font-size: 2rem;
    padding:1rem 1.5rem;
    border:var(--border);
@@ -750,7 +751,7 @@ section{
 }
 
 .display-order p span{
-   color:var(--gray);
+   color:var(--blueberry);
 }
 
 .display-order .grand-total{
@@ -760,7 +761,7 @@ section{
 }
 
 .display-order .grand-total span{
-   color:var(--gray);
+   color:var(--blueberry);
 }
 
 .checkout form{
@@ -775,7 +776,7 @@ section{
 .checkout form h3{
    text-align: center;
    margin-bottom: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    text-transform: uppercase;
    font-size: 3rem;
 }
@@ -792,7 +793,7 @@ section{
 
 .checkout form .flex span{
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
 }
 
 .checkout form .flex select,
@@ -836,7 +837,7 @@ section{
 }
 
 .placed-orders .box-container .box p span{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 .search-form form{
@@ -855,7 +856,7 @@ section{
    padding:1.2rem 1.4rem;
    border:var(--border);
    font-size: 2rem;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    background-color: var(--light-bg);
    border-radius: .5rem;
 }
@@ -883,27 +884,29 @@ section{
 
 .footer .box-container .box h3{
    text-transform: uppercase;
-   color:var(--light-black);
+   color:var(--charcoal-blue);
    font-size: 2rem;
    padding-bottom: 2rem;
 }
 
-.footer .box-container .box p,
-.footer .box-container .box a{
-   display: block;
-   font-size: 1.7rem;
-   color:var(--light-color);
-   padding:1rem 0;
+.footer .box-container .box a,
+.footer .box-container .box p {
+    display: flex; /* Use flex display to align icon with text */
+    align-items: center; /* Align items vertically */
+    font-size: 1.7rem;
+    color: var(--light-color);
+    padding: 1rem 0;
 }
 
 .footer .box-container .box p i,
-.footer .box-container .box a i{
-   color:var(--black);
-   padding-right: .5rem;
+.footer .box-container .box a i {
+    color: var(--night-blue);
+    margin-right: .5rem; /* Adjust spacing to the right of the icon */
 }
 
+
 .footer .box-container .box a:hover{
-   color:var(--black);
+   color:var(--night-blue);
    text-decoration: underline;
 }
 
@@ -917,7 +920,7 @@ section{
 }
 
 .footer .credit span{
-   color:var(--black);
+   color:var(--night-blue);
 }
 
 

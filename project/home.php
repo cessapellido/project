@@ -50,7 +50,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>SHOP AT HOME</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
+      <p>Home Solutions, One Click Away!</p>
       <a href="about.php" class="white-btn">discover more</a>
    </div>
 
@@ -58,74 +58,74 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="authors">
 
-   <h1 class="title">SALE PRODUCTS</h1>
+   <h1 class="title">PRODUCTS</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/F1.jpg" alt="">
+         <img src="images/industrial-fan.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>White Dress</h3>
+         <h3>Industrial Fan</h3>
       </div>
 
       <div class="box">
-         <img src="images/F2.jpg" alt="">
+         <img src="images/efan.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Blue Blouse</h3>
+         <h3>Electricfan</h3>
       </div>
 
       <div class="box">
-         <img src="images/F3.jpg" alt="">
+         <img src="images/air_ventilation.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Checkered Blouse</h3>
+         <h3>Air Ventilation</h3>
       </div>
 
       <div class="box">
-         <img src="images/F4.jpg" alt="">
+         <img src="images/blender.png" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Plain Shirt</h3>
+         <h3>Blender</h3>
       </div>
 
       <div class="box">
-         <img src="images/F5.jpg" alt="">
+         <img src="images/water_dispenser.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Black Tennis Skirt</h3>
+         <h3>Water Dispenser</h3>
       </div>
 
       <div class="box">
-         <img src="images/F6.jpg" alt="">
+         <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Brown Trouser </h3>
+         <h3>Multi Purpose Cooker </h3>
       </div>
 
    </div>
@@ -173,12 +173,12 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-clothes.jpg" alt="">
+         <img src="images/AIRBLASTER-21.jpg" alt="">
       </div>
 
       <div class="content">
          <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <p>Welcome to Iwata Appliances - Your Ultimate Destination for Innovative Home Solutions! Founded in 2006, Iwata Appliances began with a simple vision: to offer high-quality, innovative home appliances that make daily living more comfortable and efficient. </p>
          <a href="about.php" class="btn">read more</a>
       </div>
 
@@ -190,7 +190,7 @@ if(isset($_POST['add_to_cart'])){
 
    <div class="content">
       <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <p>Do you have any questions about our products? Ask away! Get in touch with me through any of the available different platforms and channels, and I'd be more than happy to assist you and meet your home appliances needs!</p>
       <a href="contact.php" class="white-btn">contact us</a>
    </div>
 

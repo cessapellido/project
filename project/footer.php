@@ -19,18 +19,18 @@
 
       <div class="box">
          <h3>contact info</h3>
-         <p> <i class="fas fa-phone"></i> +63 (961) 334 3830 </p>
-         <p> <i class="fas fa-phone"></i> +63 (923) 523 5979 </p>
-         <p> <i class="fas fa-envelope"></i> closet.360@gmail.com </p>
+         <p> <i class="fas fa-phone"></i> +63 (930) 389 1618 </p>
+         <p> <i class="fas fa-phone"></i> +63 (945) 473 8252 </p>
+         <p> <i class="fas fa-envelope"></i>raymondmagallanes23@gmail.com</p>
          <p> <i class="fas fa-map-marker-alt"></i> sampaloc, manila - 400104 </p>
       </div>
 
       <div class="box">
          <h3>follow us</h3>
-         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+         <a href="https://www.facebook.com/raymond.mesayra.9"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href=""> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA=="> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-viber"></i> viber </a>
       </div>
 
    </div>

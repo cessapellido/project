@@ -38,13 +38,16 @@ $user_id = $_SESSION['user_id'];
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-accessories.jpg" alt="">
+         <img src="images/About-pic.jpg" alt="">
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatibus aut hic molestias, reiciendis natus fuga, cumque excepturi veniam ratione iure. Excepturi fugiat placeat iusto facere id officia assumenda temporibus?</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+         <h3>Our Philosophy</h3>
+         <p>At Iwata Appliances, we believe in the power of innovation to transform homes. Our products are designed to blend seamlessly into your lifestyle, providing functionality and elegance in equal measure. We are dedicated to offering appliances that not only look great but also stand the test of time.</p>
+         <h3>Why Choose Iwata</h3>
+         <p>Quality Assurance: Every Iwata product undergoes rigorous testing to ensure it meets our high standards.</p>
+         <p>Innovation: We continuously evolve our product line to incorporate the latest technology and design trends.</p>
+         <p>Customer Focus: Your satisfaction is our priority. We offer excellent customer service and support to ensure a seamless experience.</p>
          <a href="contact.php" class="btn">contact us</a>
       </div>
 
