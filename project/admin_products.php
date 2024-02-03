@@ -13,6 +13,8 @@ if(!isset($admin_id)){
 if(isset($_POST['add_product'])){
 
    $name = mysqli_real_escape_string($conn, $_POST['name']);
+   $category = mysqli_real_escape_string($conn, $_POST['category']); // Capture the category
+   $description = mysqli_real_escape_string($conn, $_POST['description']); // description
    $price = $_POST['price'];
    $image = $_FILES['image']['name'];
    $image_size = $_FILES['image']['size'];
@@ -24,7 +26,7 @@ if(isset($_POST['add_product'])){
    if(mysqli_num_rows($select_product_name) > 0){
       $message[] = 'product name already added';
    }else{
-      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, image) VALUES('$name', '$price', '$image')") or die('query failed');
+      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, image, category, description) VALUES('$name', '$price', '$image', '$category', '$description')") or die('query failed');
 
       if($add_product_query){
          if($image_size > 2000000){
@@ -52,9 +54,10 @@ if(isset($_POST['update_product'])){
 
    $update_p_id = $_POST['update_p_id'];
    $update_name = $_POST['update_name'];
+   $update_description = $_POST['update_description']; // Capture the description
    $update_price = $_POST['update_price'];
 
-   mysqli_query($conn, "UPDATE `products` SET name = '$update_name', price = '$update_price' WHERE id = '$update_p_id'") or die('query failed');
+   mysqli_query($conn, "UPDATE `products` SET name = '$update_name', price = '$update_price', description = '$update_description' WHERE id = '$update_p_id'") or die('query failed');
 
    $update_image = $_FILES['update_image']['name'];
    $update_image_tmp_name = $_FILES['update_image']['tmp_name'];
@@ -107,7 +110,27 @@ if(isset($_POST['update_product'])){
       <h3>add product</h3>
       <input type="text" name="name" class="box" placeholder="enter product name" required>
       <input type="number" min="0" name="price" class="box" placeholder="enter product price" required>
+      <textarea name="description" class="box" placeholder="enter product description" required></textarea>
       <input type="file" name="image" accept="image/jpg, image/jpeg, image/png" class="box" required>
+      <select name="category" class="box" required>
+         <option value="">Select a category</option>
+         <option value="Evaporative Air Cooler">Evaporative Air Cooler</option>
+         <option value="Non-Industrial Air Cooler">Non-Industrial Air Cooler</option>
+         <option value="Industrial Fan">Industrial Fan</option>
+         <option value="HVLS Industrial Ceiling Fan">HVLS Industrial Ceiling Fan</option>
+         <option value="Electricfan">Electricfan</option>
+         <option value="Rechargeable Portable Mini Fan">Rechargeable Portable Mini Fan</option>
+         <option value="Ultrasonic Mist Fan">Ultrasonic Mist Fan</option>
+         <option value="Air Ventilation">Air Ventilation</option>
+         <option value="Air Curtain">Air Curtain</option>
+         <option value="Home and Kitchen Appliance">Home and Kitchen Appliance</option>
+         <option value="Water Dispenser">Water Dispenser</option>
+         <option value="Vacuum Cleaner">Vacuum Cleaner</option>
+         <option value="Hand dryers">Hand dryers</option>
+         <option value="Rechargeable Emergency Led Lights">Rechargeable Emergency Led Lights</option>
+         <option value="Tornado Brand">Tornado Brand</option>
+         <option value="Promo Products">Promo Products</option>
+      </select>
       <input type="submit" value="add product" name="add_product" class="btn">
    </form>
 
@@ -129,7 +152,8 @@ if(isset($_POST['update_product'])){
       <div class="box">
          <img src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
-         <div class="price">PHP<?php echo $fetch_products['price']; ?>/-</div>
+         <div class="price">PHP <?php echo $fetch_products['price']; ?></div>
+         <div class="description"><?php echo $fetch_products['description']; ?></div>
          <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">update</a>
          <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">delete</a>
       </div>
@@ -158,6 +182,7 @@ if(isset($_POST['update_product'])){
       <img src="uploaded_img/<?php echo $fetch_update['image']; ?>" alt="">
       <input type="text" name="update_name" value="<?php echo $fetch_update['name']; ?>" class="box" required placeholder="enter product name">
       <input type="number" name="update_price" value="<?php echo $fetch_update['price']; ?>" min="0" class="box" required placeholder="enter product price">
+      <textarea name="update_description" class="box" placeholder="enter product description" required></textarea>
       <input type="file" class="box" name="update_image" accept="image/jpg, image/jpeg, image/png">
       <input type="submit" value="update" name="update_product" class="btn">
       <input type="reset" value="cancel" id="close-update" class="option-btn">
