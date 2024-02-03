@@ -36,7 +36,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>home</title>
+   <title>Home</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -73,7 +73,7 @@ if(isset($_POST['add_to_cart'])){
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Industrial Fan</h3>
+         <h3>Evaporative Air Cooler</h3>
       </div>
 
       <div class="box">
@@ -84,7 +84,7 @@ if(isset($_POST['add_to_cart'])){
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Electricfan</h3>
+         <h3>Non-Industrial Air Cooler</h3>
       </div>
 
       <div class="box">
@@ -95,7 +95,7 @@ if(isset($_POST['add_to_cart'])){
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Air Ventilation</h3>
+         <h3>Industrial Fan</h3>
       </div>
 
       <div class="box">
@@ -106,11 +106,77 @@ if(isset($_POST['add_to_cart'])){
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Blender</h3>
+         <h3>HVLS Industrial Ceiling Fan</h3>
       </div>
 
       <div class="box">
          <img src="images/water_dispenser.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Electricfan</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/multi-cooker.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Rechargeable Portable Mini Fan</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/multi-cooker.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Ultrasonic Mist Fan</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/multi-cooker.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Air Ventilation</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/multi-cooker.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Air Curtain</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/multi-cooker.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Home and Kitchen Appliances</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -128,7 +194,40 @@ if(isset($_POST['add_to_cart'])){
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Multi Purpose Cooker </h3>
+         <h3>Vacuum Cleaner</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/efan.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Hand dryers</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/efan.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Rechargeable Emergency Led Lights</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/efan.jpg" alt="">
+         <div class="share">
+            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-viber"></a>
+         </div>
+         <h3>Tornado Brand</h3>
       </div>
 
    </div>

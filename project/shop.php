@@ -37,7 +37,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>shop</title>
+   <title>Shop</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -57,7 +57,7 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="products">
 
-   <h1 class="title">Sale Products</h1>
+   <p class="title">Promo Products</p>
 
    <div class="box-container">
 
@@ -84,7 +84,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Evaporative Air Cooler</h1>
+   <p class="title">Evaporative Air Cooler</p>
 
    <div class="box-container">
 
@@ -111,7 +111,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Non-Industrial Air Cooler</h1>
+   <p class="title">Non-Industrial Air Cooler</p>
 
    <div class="box-container">
 
@@ -138,7 +138,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Industrial Fan</h1>
+   <p class="title">Industrial Fan</p>
 
    <div class="box-container">
 
@@ -165,7 +165,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">HVLS Industrial Ceiling Fan</h1>
+   <p class="title">HVLS Industrial Ceiling Fan</p>
 
    <div class="box-container">
 
@@ -192,7 +192,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Electricfan</h1>
+   <p class="title">Electricfan</p>
 
    <div class="box-container">
 
@@ -219,7 +219,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Rechargeable Portable Mini Fan</h1>
+   <p class="title">Rechargeable Portable Mini Fan</p>
 
    <div class="box-container">
 
@@ -246,7 +246,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Ultrasonic Mist Fan</h1>
+   <p class="title">Ultrasonic Mist Fan</p>
 
    <div class="box-container">
 
@@ -273,7 +273,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Air Ventilation</h1>
+   <p class="title">Air Ventilation</p>
 
    <div class="box-container">
 
@@ -300,7 +300,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Air Curtain</h1>
+   <p class="title">Air Curtain</p>
 
    <div class="box-container">
 
@@ -327,7 +327,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Home and Kitchen Appliances</h1>
+   <p class="title">Home and Kitchen Appliances</p>
 
    <div class="box-container">
 
@@ -354,7 +354,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Water Dispenser</h1>
+   <p class="title">Water Dispenser</p>
 
    <div class="box-container">
 
@@ -381,7 +381,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Vacuum Cleaner</h1>
+   <p class="title">Vacuum Cleaner</p>
 
    <div class="box-container">
 
@@ -408,7 +408,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Hand dryers</h1>
+   <p class="title">Hand dryers</p>
 
    <div class="box-container">
 
@@ -435,7 +435,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Rechargeable Emergency Led Lights</h1>
+   <p class="title">Rechargeable Emergency Led Lights</p>
 
    <div class="box-container">
 
@@ -462,34 +462,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <h1 class="title">Rechargeable Emergency Led Lights</h1>
-
-   <div class="box-container">
-
-      <?php  
-         $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'Rechargeable Emergency Led Lights'") or die('query failed');
-         if(mysqli_num_rows($select_products) > 0){
-            while($fetch_products = mysqli_fetch_assoc($select_products)){
-      ?>
-   <form action="" method="post" class="box">
-      <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
-      <div class="name"><?php echo $fetch_products['name']; ?></div>
-      <div class="price">PHP <?php echo $fetch_products['price']; ?></div>
-      <div class="description"><?php echo $fetch_products['description']; ?></div>
-      <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
-      <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
-      <textarea type=hidden name="description" value="<?php echo $fetch_products['description']; ?>"></textarea>
-      <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
-   </form>
-      <?php
-         }
-      }else{
-         echo '<p class="empty">no products added yet!</p>';
-      }
-      ?>
-   </div>
-
-   <h1 class="title">Tornado Brand</h1>
+   <p class="title">Tornado Brand</p>
 
    <div class="box-container">
 
