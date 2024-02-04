@@ -27,31 +27,30 @@ if(isset($message)){
    <div class="header-2">
       <div class="flex">
          <a href="home.php" class="logo">Iwata.Appliances</a>
-
          <nav class="navbar">
-               <a href="home.php">Home</a>
-               <a href="about.php">About</a>
-               <a href="shop.php">Shop</a>
-               <a href="contact.php">Contact</a>
-               <div class="dropdown">
-               <a href="shop.php">Products ⮛</a>
-                  <div class="dropdown-content">
-                     <a href="contact.php">Evaporative Air Cooler</a>
-                     <a href="#">Non-Industrial Air Cooler</a>
-                     <a href="#">Industrial Fan</a>
-                     <a href="#">HVLS Industrial Ceiling Fan</a>
-                     <a href="#">Electricfan</a>
-                     <a href="#">Rechargeable Portable Mini Fan</a>
-                     <a href="#">Ultrasonic Mist Fan</a>
-                     <a href="#">Air Ventilation</a>
-                     <a href="#">Air Curtain</a>
-                     <a href="#">Home and Kitchen Appliances</a>
-                     <a href="#">Water Dispenser</a>
-                     <a href="#">Vacuum Cleaner</a>
-                     <a href="#">Hand dryers</a>
-                     <a href="#">Rechargeable Emergency Led Lights</a>
-                     <a href="#">Tornado Brand</a>
-                  </div>
+            <a href="home.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="shop.php">Shop</a>
+            <a href="contact.php">Contact</a>
+            <div class="dropdown">
+               <a href="javascript:void(0)">Products</a>
+               <div class="dropdown-content">
+                  <a href="#">Evaporative Air Cooler</a>
+                  <a href="#">Non-Industrial Air Cooler</a>
+                  <a href="#">Industrial Fan</a>
+                  <a href="#">HVLS Industrial Ceiling Fan</a>
+                  <a href="#">Electricfan</a>
+                  <a href="#">Rechargeable Portable Mini Fan</a>
+                  <a href="#">Ultrasonic Mist Fan</a>
+                  <a href="#">Air Ventilation</a>
+                  <a href="#">Air Curtain</a>
+                  <a href="#">Home and Kitchen Appliances</a>
+                  <a href="#">Water Dispenser</a>
+                  <a href="#">Vacuum Cleaner</a>
+                  <a href="#">Hand dryers</a>
+                  <a href="#">Rechargeable Emergency Led Lights</a>
+                  <a href="#">Tornado Brand</a>
+               </div>
             </div>
          </nav>
 

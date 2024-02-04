@@ -291,24 +291,46 @@ section {
 
 .header .header-2 .flex .dropdown {
   position: relative;
+  display: inline-block;
 }
 
 .header .header-2 .flex .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #272525;
+  background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .header .header-2 .flex .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.header .header-2 .flex .navbar a {
+.header .header-2 .flex .dropdown:hover .dropdown-content a {
+  color: black;
+  padding: 6px 2px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+.header .header-2 .flex .dropdown:hover .dropdown-content a:hover {
+  background-color: var(--columbia-blue);
+}
+
+.header .header-2 .flex .dropdown > a {
+  color: var(--light-color); /* Adjust as per your theme */
+  text-decoration: none; /* Optional: removes underline */
+  font-size: 2rem; /* Adjust size as needed */
+  cursor: pointer; /* Changes cursor to indicate clickable */
+}
+
+.header-2 .flex .navbar a {
   margin: 0 1rem;
   font-size: 2rem;
   color: var(--light-color);
+  text-decoration: none; /* Remove underline from links */
 }
 
 .header .header-2 .flex .navbar a:hover {
