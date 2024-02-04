@@ -84,7 +84,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Evaporative Air Cooler</p>
+   <p class="title" id="evaporative-coolers">Evaporative Air Cooler</p>
 
    <div class="box-container">
 
@@ -111,7 +111,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Non-Industrial Air Cooler</p>
+   <p class="title" id="non-industrial-coolers" >Non-Industrial Air Cooler</p>
 
    <div class="box-container">
 
@@ -138,7 +138,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Industrial Fan</p>
+   <p class="title" id="industrial-fans">Industrial Fan</p>
 
    <div class="box-container">
 
@@ -165,7 +165,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">HVLS Industrial Ceiling Fan</p>
+   <p class="title" id="hvls-fans">HVLS Industrial Ceiling Fan</p>
 
    <div class="box-container">
 
@@ -192,7 +192,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Electricfan</p>
+   <p class="title" id="electricfans" >Electricfan</p>
 
    <div class="box-container">
 
@@ -219,7 +219,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Rechargeable Portable Mini Fan</p>
+   <p class="title" id="rechargeable-fans" >Rechargeable Portable Mini Fan</p>
 
    <div class="box-container">
 
@@ -246,7 +246,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Ultrasonic Mist Fan</p>
+   <p class="title" id="ultrasonic-fans" >Ultrasonic Mist Fan</p>
 
    <div class="box-container">
 
@@ -273,7 +273,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Air Ventilation</p>
+   <p class="title" id="air-ventilation" >Air Ventilation</p>
 
    <div class="box-container">
 
@@ -300,7 +300,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Air Curtain</p>
+   <p class="title" id="air-curtain" >Air Curtain</p>
 
    <div class="box-container">
 
@@ -327,7 +327,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Home and Kitchen Appliances</p>
+   <p class="title" id="home-appliances" >Home and Kitchen Appliances</p>
 
    <div class="box-container">
 
@@ -354,7 +354,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Water Dispenser</p>
+   <p class="title" id="water-dispenser" >Water Dispenser</p>
 
    <div class="box-container">
 
@@ -381,7 +381,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Vacuum Cleaner</p>
+   <p class="title" id="vacuum-cleaner" >Vacuum Cleaner</p>
 
    <div class="box-container">
 
@@ -408,7 +408,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Hand dryers</p>
+   <p class="title" id="hand-dryers" >Hand dryers</p>
 
    <div class="box-container">
 
@@ -435,7 +435,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Rechargeable Emergency Led Lights</p>
+   <p class="title" id="rechargeable-lights" >Rechargeable Emergency Led Lights</p>
 
    <div class="box-container">
 
@@ -462,7 +462,7 @@ if(isset($_POST['add_to_cart'])){
       ?>
    </div>
 
-   <p class="title">Tornado Brand</p>
+   <p class="title" id="tornado-brand" >Tornado Brand</p>
 
    <div class="box-container">
 

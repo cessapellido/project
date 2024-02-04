@@ -66,6 +66,7 @@ if(isset($_POST['add_to_cart'])){
    <div class="box-container">
 
       <div class="box">
+         <a href = "shop.php#evaporative-coolers">
          <img src="images/industrial-fan.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -74,9 +75,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Evaporative Air Cooler</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#non-industrial-coolers">
          <img src="images/efan.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -85,9 +88,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Non-Industrial Air Cooler</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#industrial-fans">
          <img src="images/air_ventilation.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -96,9 +101,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Industrial Fan</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#hvls-fans">
          <img src="images/blender.png" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -107,9 +114,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>HVLS Industrial Ceiling Fan</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#electricfans">
          <img src="images/water_dispenser.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -118,9 +127,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Electricfan</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#rechargeable-fans">
          <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -129,9 +140,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Rechargeable Portable Mini Fan</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#ultrasonic-fans">
          <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -140,9 +153,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Ultrasonic Mist Fan</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#air-ventilation">
          <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -151,9 +166,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Air Ventilation</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#air-curtain">
          <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -162,9 +179,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Air Curtain</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#home-appliances">
          <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -173,9 +192,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Home and Kitchen Appliances</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#water-dispenser">
          <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -184,9 +205,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Water Dispenser</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#vacuum-cleaner">
          <img src="images/multi-cooker.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -195,9 +218,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Vacuum Cleaner</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#hand-dryers">
          <img src="images/efan.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -206,9 +231,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Hand dryers</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#rechargeable-lights">
          <img src="images/efan.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -217,9 +244,11 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Rechargeable Emergency Led Lights</h3>
+         </a>
       </div>
 
       <div class="box">
+      <a href = "shop.php#tornado-brand">
          <img src="images/efan.jpg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
@@ -228,6 +257,7 @@ if(isset($_POST['add_to_cart'])){
             <a href="#" class="fab fa-viber"></a>
          </div>
          <h3>Tornado Brand</h3>
+         </a>
       </div>
 
    </div>

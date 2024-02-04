@@ -35,21 +35,21 @@ if(isset($message)){
             <div class="dropdown">
                <a href="javascript:void(0)">Products</a>
                <div class="dropdown-content">
-                  <a href="#">Evaporative Air Cooler</a>
-                  <a href="#">Non-Industrial Air Cooler</a>
-                  <a href="#">Industrial Fan</a>
-                  <a href="#">HVLS Industrial Ceiling Fan</a>
-                  <a href="#">Electricfan</a>
-                  <a href="#">Rechargeable Portable Mini Fan</a>
-                  <a href="#">Ultrasonic Mist Fan</a>
-                  <a href="#">Air Ventilation</a>
-                  <a href="#">Air Curtain</a>
-                  <a href="#">Home and Kitchen Appliances</a>
-                  <a href="#">Water Dispenser</a>
-                  <a href="#">Vacuum Cleaner</a>
-                  <a href="#">Hand dryers</a>
-                  <a href="#">Rechargeable Emergency Led Lights</a>
-                  <a href="#">Tornado Brand</a>
+                  <a href="shop.php#evaporative-coolers">Evaporative Air Cooler</a>
+                  <a href="shop.php#non-industrial-coolers">Non-Industrial Air Cooler</a>
+                  <a href="shop.php#industrial-fans">Industrial Fan</a>
+                  <a href="shop.php#hvls-fans">HVLS Industrial Ceiling Fan</a>
+                  <a href="shop.php#electricfans">Electricfan</a>
+                  <a href="shop.php#rechargeable-fans">Rechargeable Portable Mini Fan</a>
+                  <a href="shop.php#ultrasonic-fans">Ultrasonic Mist Fan</a>
+                  <a href="shop.php#air-ventilation">Air Ventilation</a>
+                  <a href="shop.php#air-curtain">Air Curtain</a>
+                  <a href="shop.php#home-appliances">Home and Kitchen Appliances</a>
+                  <a href="shop.php#water-dispenser">Water Dispenser</a>
+                  <a href="shop.php#vacuum-cleaner">Vacuum Cleaner</a>
+                  <a href="shop.php#hand-dryers">Hand dryers</a>
+                  <a href="shop.php#rechargeable-lights">Rechargeable Emergency Led Lights</a>
+                  <a href="shop.php#tornado-brand">Tornado Brand</a>
                </div>
             </div>
          </nav>
