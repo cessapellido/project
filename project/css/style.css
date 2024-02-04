@@ -289,6 +289,22 @@ section {
   color: var(--night-blue);
 }
 
+.header .header-2 .flex .dropdown {
+  position: relative;
+}
+
+.header .header-2 .flex .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272525;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.header .header-2 .flex .dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .header .header-2 .flex .navbar a {
   margin: 0 1rem;
   font-size: 2rem;
