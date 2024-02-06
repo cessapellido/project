@@ -306,31 +306,36 @@ section{
 }
 
 .show-products .box-container{
+   max-width: 1800px;
+   margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(auto-fit, 30rem);
-   justify-content: center;
-   gap:1.5rem;
-   max-width: 1200px;
-   margin:0 auto;
    align-items: flex-start;
+   gap: 1.5rem;
+   justify-content: center;
 }
 
 .show-products{
    padding-top: 0;
 }
 
-.show-products .box-container .box{
-   text-align: center;
-   padding:2rem;
-   border-radius: .5rem;
-   border:var(--border);
+.show-products .box-container .box {
+   padding: 2rem; /* adjust as necessary */
+   background-color: var(--light-bg);
    box-shadow: var(--box-shadow);
-   background-color: var(--white);
-}
+   padding-bottom: 2rem;
+   text-align: center;
+   border: var(--border);
+   position: relative;
+ }
 
-.show-products .box-container .box img{
-   height: 30rem;
-}
+.show-products .box-container .box img {
+   width: auto; /* Width can be auto if you want the image's natural width to be used */
+   max-width: 100%; /* Ensures image is not wider than the box */
+   height: auto; /* Height is auto to maintain aspect ratio */
+   object-fit: contain; /* Keeps the image within the bounds of the box */
+   /* Remove absolute positioning and centering */
+ }
 
 .show-products .box-container .box .name{
    padding:1rem 0;
@@ -343,6 +348,17 @@ section{
    font-size: 2.5rem;
    color:var(--red);
 }
+
+.show-products .box-container .box .description {
+   width: 100%;
+   padding: 1.2rem 1.4rem;
+   border-radius: 0.5rem;
+   border: var(--border);
+   margin: 1rem 0;
+   font-size: 1.5rem; /* You had an incomplete property here */
+   background-color: var(--light-bg); /* If you want to maintain the input field's background */
+   box-sizing: border-box; /* To include padding in the width */
+ }
 
 .edit-product-form{
    min-height: 100vh;

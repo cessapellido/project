@@ -8,7 +8,7 @@
   --gold: #c89933;
   --light-color: #666;
   --columbia-blue: #87afc7;
-  --light-bg: #FFFEF2;
+  --light-bg: #f5f5f5;
   --border: 0.1rem solid var(--charcoal-blue);
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -428,7 +428,7 @@ section {
 .products .box-container .box {
   border-radius: 0.5rem;
   padding: 2rem; /* adjust as necessary */
-  background-color: #FBF6ED;
+  background-color: var(--light-bg);
   box-shadow: var(--box-shadow);
   padding-bottom: 2rem;
   text-align: center;
