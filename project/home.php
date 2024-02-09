@@ -67,7 +67,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
          <a href = "shop.php#evaporative-coolers">
-         <img src="images/industrial-fan.jpg" alt="">
+         <img src="images/evaporative.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -80,7 +80,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#non-industrial-coolers">
-         <img src="images/efan.jpg" alt="">
+         <img src="images/non-industrial.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -93,7 +93,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#industrial-fans">
-         <img src="images/air_ventilation.jpg" alt="">
+         <img src="images/industrial-fan.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -106,7 +106,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#hvls-fans">
-         <img src="images/blender.png" alt="">
+         <img src="images/hvls-fans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -119,7 +119,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#electricfans">
-         <img src="images/water_dispenser.jpg" alt="">
+         <img src="images/electricfans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -132,7 +132,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#rechargeable-fans">
-         <img src="images/multi-cooker.jpg" alt="">
+         <img src="images/rechargeable-fans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -145,7 +145,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#ultrasonic-fans">
-         <img src="images/multi-cooker.jpg" alt="">
+         <img src="images/ultrasonic-fans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -158,7 +158,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#air-ventilation">
-         <img src="images/multi-cooker.jpg" alt="">
+         <img src="images/air-ventilation.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -171,7 +171,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#air-curtain">
-         <img src="images/multi-cooker.jpg" alt="">
+         <img src="images/air-curtain.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -184,7 +184,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#home-appliances">
-         <img src="images/multi-cooker.jpg" alt="">
+         <img src="images/home-appliances.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -197,7 +197,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#water-dispenser">
-         <img src="images/multi-cooker.jpg" alt="">
+         <img src="images/water-dispenser.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -210,7 +210,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#vacuum-cleaner">
-         <img src="images/multi-cooker.jpg" alt="">
+         <img src="images/vacuum-cleaner.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -223,20 +223,20 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#hand-dryers">
-         <img src="images/efan.jpg" alt="">
+         <img src="images/hand-dryers.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-viber"></a>
          </div>
-         <h3>Hand dryers</h3>
+         <h3>Hand Dryers</h3>
          </a>
       </div>
 
       <div class="box">
       <a href = "shop.php#rechargeable-lights">
-         <img src="images/efan.jpg" alt="">
+         <img src="images/rechargeable-lights.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -249,7 +249,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#tornado-brand">
-         <img src="images/efan.jpg" alt="">
+         <img src="images/tornado-brand.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -304,7 +304,7 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/AIRBLASTER-21.jpg" alt="">
+         <img src="images/all-in-appliances.jpeg" alt="">
       </div>
 
       <div class="content">

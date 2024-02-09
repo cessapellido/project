@@ -226,7 +226,7 @@ section {
 }
 
 .header .header-1 {
-  background-color: #C30010;
+  background-color: var(--columbia-blue);
 }
 
 .header .header-1 .flex {
