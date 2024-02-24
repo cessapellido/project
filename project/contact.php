@@ -50,9 +50,41 @@ if(isset($_POST['send'])){
 <?php include 'header.php'; ?>
 
 <div class="heading">
-   <h3>contact us</h3>
-   <p> <a href="home.php">home</a> / contact </p>
+   <h3>Contact Us</h3>
+   <!-- <p class="slider-nav"><a href="home.php">home</a> / shop</p> -->
+   <!-- Slider Container -->
+   <div class="slider">
+    <div class="slides">
+        <div class="slide"><img src="images/cover1.jpg" alt="Image 1"></div>
+        <div class="slide"><img src="images/cover2.jpg" alt="Image 2"></div>
+        <div class="slide"><img src="images/cover3.jpg" alt="Image 3"></div>
+        <div class="slide"><img src="images/cover5.jpg" alt="Image 5"></div>
+    </div>
+    <!-- Optional: Navigation Arrows
+    <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+    <a class="next" onclick="moveSlide(1)">&#10095;</a> -->
 </div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 5000); // Change image every 4 seconds
+}
+
+function moveSlide(n) {
+  slideIndex += n - 1;
+  showSlides();
+}
+</script>
 
 <section class="contact">
 

@@ -56,6 +56,23 @@ if(isset($message)){
 
          <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div>
+
+            <div id="dropdown-menu" class="dropdown-content">
+               <a href="home.php">Home</a>
+               <a href="about.php">About</a>
+               <a href="shop.php">Shop</a>
+               <a href="contact.php">Contact</a>
+            </div>
+            <script>
+               document.getElementById("menu-btn").onclick = function() {
+               var dropdown = document.getElementById("dropdown-menu");
+                  if (dropdown.style.display === "none" || !dropdown.style.display) {
+                     dropdown.style.display = "block";
+                  } else {
+                     dropdown.style.display = "none";
+                     }
+               }
+            </script>
             <a href="search_page.php" class="fas fa-search"></a>
             <?php
                $select_cart_number = mysqli_query($conn, "SELECT * FROM `cart` WHERE user_id = '$user_id'") or die('query failed');
