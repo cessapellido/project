@@ -309,7 +309,7 @@ section{
    max-width: 1800px;
    margin: 0 auto;
    display: grid;
-   grid-template-columns: repeat(auto-fit, 30rem);
+   grid-template-columns: repeat(auto-fit, minmax(250px, 30rem)); /* Ensuring responsiveness */
    align-items: flex-start;
    gap: 1.5rem;
    justify-content: center;
@@ -320,10 +320,9 @@ section{
 }
 
 .show-products .box-container .box {
-   padding: 2rem; /* adjust as necessary */
+   padding: 2rem;
    background-color: var(--light-bg);
    box-shadow: var(--box-shadow);
-   padding-bottom: 2rem;
    text-align: center;
    border: var(--border);
    position: relative;
@@ -350,14 +349,20 @@ section{
 }
 
 .show-products .box-container .box .description {
-   width: 100%;
+   max-width: 300px;; /* Match the width of the container */
+   overflow-wrap: break-word; /* Allows long words to wrap and avoids overflow */
+   word-break: break-all; /* Ensures any word can be broken at any point if necessary */
    padding: 1.2rem 1.4rem;
    border-radius: 0.5rem;
+   white-space: pre-wrap;
+   font-family: Arial, sans-serif;
    border: var(--border);
    margin: 1rem 0;
-   font-size: 1.5rem; /* You had an incomplete property here */
-   background-color: var(--light-bg); /* If you want to maintain the input field's background */
-   box-sizing: border-box; /* To include padding in the width */
+   font-size: 1.5rem;
+   background-color: var(--light-bg);
+   box-sizing: border-box; /* Ensures padding does not affect overall width */
+   text-align: justify; /* Optional: if you want the text justified */
+   height: auto; /* Height adjusts based on content */
  }
 
 .edit-product-form{

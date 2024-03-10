@@ -74,10 +74,10 @@ if(isset($message)){
                }
             </script>
             <a href="search_page.php" class="fas fa-search"></a>
-            <?php
+            <!-- <?php
                $select_cart_number = mysqli_query($conn, "SELECT * FROM `cart` WHERE user_id = '$user_id'") or die('query failed');
                $cart_rows_number = mysqli_num_rows($select_cart_number); 
-            ?>
+            ?> -->
          </div>
 
          <div class="user-box">
