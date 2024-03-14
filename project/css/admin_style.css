@@ -306,31 +306,35 @@ section{
 }
 
 .show-products .box-container{
+   max-width: 1800px;
+   margin: 0 auto;
    display: grid;
-   grid-template-columns: repeat(auto-fit, 30rem);
-   justify-content: center;
-   gap:1.5rem;
-   max-width: 1200px;
-   margin:0 auto;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 30rem)); /* Ensuring responsiveness */
    align-items: flex-start;
+   gap: 1.5rem;
+   justify-content: center;
 }
 
 .show-products{
    padding-top: 0;
 }
 
-.show-products .box-container .box{
-   text-align: center;
-   padding:2rem;
-   border-radius: .5rem;
-   border:var(--border);
+.show-products .box-container .box {
+   padding: 2rem;
+   background-color: var(--light-bg);
    box-shadow: var(--box-shadow);
-   background-color: var(--white);
-}
+   text-align: center;
+   border: var(--border);
+   position: relative;
+ }
 
-.show-products .box-container .box img{
-   height: 30rem;
-}
+.show-products .box-container .box img {
+   width: auto; /* Width can be auto if you want the image's natural width to be used */
+   max-width: 100%; /* Ensures image is not wider than the box */
+   height: auto; /* Height is auto to maintain aspect ratio */
+   object-fit: contain; /* Keeps the image within the bounds of the box */
+   /* Remove absolute positioning and centering */
+ }
 
 .show-products .box-container .box .name{
    padding:1rem 0;
@@ -343,6 +347,23 @@ section{
    font-size: 2.5rem;
    color:var(--red);
 }
+
+.show-products .box-container .box .description {
+   max-width: 300px;; /* Match the width of the container */
+   overflow-wrap: break-word; /* Allows long words to wrap and avoids overflow */
+   word-break: break-all; /* Ensures any word can be broken at any point if necessary */
+   padding: 1.2rem 1.4rem;
+   border-radius: 0.5rem;
+   white-space: pre-wrap;
+   font-family: Arial, sans-serif;
+   border: var(--border);
+   margin: 1rem 0;
+   font-size: 1.5rem;
+   background-color: var(--light-bg);
+   box-sizing: border-box; /* Ensures padding does not affect overall width */
+   text-align: justify; /* Optional: if you want the text justified */
+   height: auto; /* Height adjusts based on content */
+ }
 
 .edit-product-form{
    min-height: 100vh;

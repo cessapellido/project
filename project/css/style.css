@@ -98,6 +98,7 @@ section {
 }
 
 .btn,
+.view-description,
 .option-btn,
 .delete-btn,
 .white-btn {
@@ -109,9 +110,11 @@ section {
   font-size: 1.8rem;
   border-radius: 0.5rem;
   text-transform: capitalize;
+  background-color: var(--night-blue);
 }
 
 .btn:hover,
+.view-description:hover,
 .option-btn:hover,
 .delete-btn:hover {
   background-color: var(--charcoal-blue);
@@ -136,17 +139,37 @@ section {
 }
 
 .heading {
-  min-height: 30vh;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background: url(../images/OFFICE-EQUIPMENT.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
   text-align: center;
 }
+
+.slider {
+  width: 100%; /* Ensure the slider fills the width of the page */
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 100%; /* Ensure each slide fills the width of the page */
+  display: flex; /* This will help in aligning the image properly */
+  justify-content: center; /* Center align the images inside the slide */
+}
+
+.slide img {
+  width: 100%; /* Make images fill their container */
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  object-fit: cover; /* Cover the area of the container without stretching. Note: this may crop the image */
+}
+
+
 
 .heading h3 {
   font-size: 5rem;
@@ -226,7 +249,7 @@ section {
 }
 
 .header .header-1 {
-  background-color: var(--light-bg);
+  background-color: var(--columbia-blue);
 }
 
 .header .header-1 .flex {
@@ -289,10 +312,48 @@ section {
   color: var(--night-blue);
 }
 
-.header .header-2 .flex .navbar a {
+.header .header-2 .flex .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.header .header-2 .flex .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.header .header-2 .flex .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header .header-2 .flex .dropdown:hover .dropdown-content a {
+  color: black;
+  padding: 6px 2px;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+}
+
+.header .header-2 .flex .dropdown:hover .dropdown-content a:hover {
+  background-color: var(--columbia-blue);
+}
+
+.header .header-2 .flex .dropdown > a {
+  color: var(--light-color); /* Adjust as per your theme */
+  text-decoration: none; /* Optional: removes underline */
+  font-size: 2rem; /* Adjust size as needed */
+  cursor: pointer; /* Changes cursor to indicate clickable */
+}
+
+.header-2 .flex .navbar a {
   margin: 0 1rem;
   font-size: 2rem;
   color: var(--light-color);
+  text-decoration: none; /* Remove underline from links */
 }
 
 .header .header-2 .flex .navbar a:hover {
@@ -314,6 +375,24 @@ section {
 #menu-btn {
   display: none;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 .header .header-2 .flex .user-box {
   position: absolute;
@@ -378,28 +457,39 @@ section {
 }
 
 .products .box-container {
-  max-width: 1200px;
+  max-width: 1800px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 30rem);
-  align-items: flex-start;
+  grid-template-columns: repeat(250px, 30rem);
+  align-items: start;
   gap: 1.5rem;
   justify-content: center;
 }
 
 .products .box-container .box {
   border-radius: 0.5rem;
-  background-color: var(--white);
+  padding: 2rem; /* adjust as necessary */
+  background-color: var(--light-bg);
   box-shadow: var(--box-shadow);
-  padding: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
   border: var(--border);
   position: relative;
+  overflow: hidden;
 }
 
-.products .box-container .box .image {
-  height: 30rem;
+.products .box-container .box .image img {
+  margin: 0; /* reset margin */
+  width: auto; /* ensures the image takes the full width of the container */
+  max-width: 100%;
+  height: auto; /* fixed height */
+  object-fit: cover; /* or 'cover' to ensure the image fills the height */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* centers the image both horizontally and vertically */
 }
+
 
 .products .box-container .box .name {
   padding: 1rem 0;
@@ -407,14 +497,22 @@ section {
   color: var(--charcoal-blue);
 }
 
-.products .box-container .box .qty {
-  width: 100%;
-  padding: 1.2rem 1.4rem;
-  border-radius: 0.5rem;
-  border: var(--border);
-  margin: 1rem 0;
-  font-size: 2rem;
+.products .box-container .box .description {
+  white-space: pre-wrap;
+  font-family: Arial, sans-serif;
+  max-width: 300px; /* Ensure description does not exceed box width */
+  overflow-wrap: break-word; /* Breaks words to prevent overflow */
+  word-break: break-all; /* Breaks words at any character to prevent overflow */
+  text-align: justify; /* Justifies the text (optional) */
+  margin: 1rem 0; /* Keeps the margin as before */
+  padding: 1.2rem 1.4rem; /* Ensures padding inside the description box */
+  box-sizing: border-box; /* Ensures the box model does not exceed its designated space */
+  border-radius: 0.5rem; /* Keeps rounded corners for the box */
+  border: var(--border); /* Retains border properties */
+  height: auto; /* Adjusts height automatically based on content */
+  display: block; /* Ensures the description is treated as a block-level element */
 }
+
 
 .products .box-container .box .price {
   position: absolute;
@@ -490,9 +588,10 @@ section {
 }
 
 .reviews .box-container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: center;
   gap: 1.5rem;
@@ -500,6 +599,14 @@ section {
 }
 
 .reviews .box-container .box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  min-height: 450px;
   background-color: var(--white);
   box-shadow: var(--box-shadow);
   border: var(--border);
@@ -543,7 +650,7 @@ section {
 }
 
 .authors .box-container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -972,4 +1079,149 @@ section {
   .title {
     font-size: 3rem;
   }
+}
+
+
+/* Add your custom CSS styles here */
+/* Add your custom CSS styles here */
+.product-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-image img {
+  width: 200%; /* Adjust this value to change the size */
+  max-width: 1000px;/* Increase this value to make the image larger */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add space below the image */
+}
+
+
+.product-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 2em;
+  margin-bottom: 200px;
+}
+
+.product-description {
+  font-size: 18px;
+  margin-bottom: 70px;
+  color: #666;
+}
+
+
+.price {
+  font-size: 1.5em;
+  color: var(--light-color);
+  margin-right: 10px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #dc2f2f;
+}
+
+@media (min-width: 768px) {
+  .product-image img {
+    max-width: 800px; /* Larger images on wider screens */
+}
+
+  .product-container {
+      flex-direction: row;
+  }
+  .product-image, .product-info {
+      flex: 1;
+  }
+  .product-image {
+      margin-right: 50px;
+  }
+}
+
+
+
+.sales-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px; /* Adjust padding as needed */
+  background-color: #f8f9fa; /* Light background color, similar to example */
+}
+
+.sales-info .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sales-info img {
+  width: 50%; /* Adjust based on your preference */
+  max-width: 600px; /* Adjust to your image's size */
+  border-radius: 10px; /* Optional: Adds rounded corners to your image */
+}
+
+.sales-info .content {
+  width: 50%;
+  padding: 20px;
+}
+
+.sales-info h1 {
+  margin-bottom: 20px; /* Space under the heading */
+  color: #333; /* Dark grey color */
+}
+
+.sales-info p {
+  padding: 1rem 0;
+  text-align: justify;
+  line-height: 2;
+  font-size: 1.7rem;
+  color: var(--light-color);
+}
+
+.sales-info ul {
+  text-align: justify;
+  list-style: none;
+  padding: 0;
+}
+
+.sales-info ul li {
+  margin-bottom: 10px; /* Space between list items */
+  align-items: center;
+  font-size: 18px; /* Larger font size for readability */
+}
+
+.sales-info ul li i {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.sales-info .btn {
+  display: inline-block;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sales-info .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
