@@ -37,9 +37,9 @@ if(isset($_POST['product_name']) && isset($_POST['product_image'])) {
         </div>
         <div class="product-info">
             <h1 class="product-title"><?php echo $product_name; ?></h1>
-            <div class="product-description"><?php echo $description; ?></div>
+            <div class="product-description"><?php echo nl2br($description); ?></div>
             <div class="product-cart">
-                <span class="price">PHP <?php echo $product_price; ?></span>
+                <span class="price"> Price: PHP <?php echo $product_price; ?></span>
             </div>
         </div>
     </div>
@@ -51,4 +51,3 @@ if(isset($_POST['product_name']) && isset($_POST['product_image'])) {
 
 </body>
 </html>
-
