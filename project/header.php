@@ -35,6 +35,13 @@ if(isset($message)){
             <div class="dropdown">
                <a href="javascript:void(0)">Products</a>
                <div class="dropdown-content">
+               <div class="dropdown">
+                        <a href="javascript:void(0)" class="sub-dropdown-btn">Tornado Brand</a>
+                        <div class="dropdown-content">
+                           <a href="shop.php#tornado-air-cooler">Tornado Air Cooler</a>
+                           <a href="shop.php#tornado-industrial-fan">Tornado Industrial Fan</a>
+                        </div>
+                  </div>
                   <a href="shop.php#evaporative-coolers">Evaporative Air Cooler</a>
                   <a href="shop.php#non-industrial-coolers">Non-Industrial Air Cooler</a>
                   <a href="shop.php#industrial-fans">Industrial Fan</a>
@@ -49,7 +56,6 @@ if(isset($message)){
                   <a href="shop.php#vacuum-cleaner">Vacuum Cleaner</a>
                   <a href="shop.php#hand-dryers">Hand dryers</a>
                   <a href="shop.php#rechargeable-lights">Rechargeable Emergency Led Lights</a>
-                  <a href="shop.php#tornado-brand">Tornado Brand</a>
                </div>
             </div>
          </nav>
