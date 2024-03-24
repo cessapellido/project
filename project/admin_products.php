@@ -128,7 +128,8 @@ if(isset($_POST['update_product'])){
          <option value="Vacuum Cleaner">Vacuum Cleaner</option>
          <option value="Hand dryers">Hand dryers</option>
          <option value="Rechargeable Emergency Led Lights">Rechargeable Emergency Led Lights</option>
-         <option value="Tornado Brand">Tornado Brand</option>
+         <option value="Tornado Air Cooler">Tornado Air Cooler</option>
+         <option value="Tornado Industrial Fan">Tornado Industrial Fan</option>
          <option value="Promo Products">Promo Products</option>
       </select>
       <input type="submit" value="add product" name="add_product" class="btn">

@@ -436,13 +436,14 @@ function moveSlide(n) {
          if(mysqli_num_rows($select_products) > 0){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
       ?>
-      <form action="" method="post" class="box">
+      <form action="product_details.php" method="post" class="box">
          <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">PHP <?php echo $fetch_products['price']; ?></div>
-         <div class="description"><?php echo $fetch_products['description']; ?></div>
+         <button type="submit" class="view-description" name="view_description" value="<?php echo $fetch_products['description']; ?>">View Description</button>
          <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
          <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
+         <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
       </form>
       <?php
          }
@@ -461,13 +462,14 @@ function moveSlide(n) {
          if(mysqli_num_rows($select_products) > 0){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
       ?>
-      <form action="" method="post" class="box">
+      <form action="product_details.php" method="post" class="box">
          <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">PHP <?php echo $fetch_products['price']; ?></div>
-         <div class="description"><?php echo $fetch_products['description']; ?></div>
+         <button type="submit" class="view-description" name="view_description" value="<?php echo $fetch_products['description']; ?>">View Description</button>
          <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
          <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
+         <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
       </form>
       <?php
          }
@@ -477,22 +479,49 @@ function moveSlide(n) {
       ?>
    </div>
 
-   <p class="title" id="tornado-brand" >Tornado Brand</p>
+   <p class="title" id="tornado-air-cooler" >Tornado Air Cooler</p>
 
    <div class="box-container">
 
       <?php  
-         $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'Tornado Brand'") or die('query failed');
+         $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'Tornado Air Cooler'") or die('query failed');
          if(mysqli_num_rows($select_products) > 0){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
       ?>
-      <form action="" method="post" class="box">
+      <form action="product_details.php" method="post" class="box">
          <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">PHP <?php echo $fetch_products['price']; ?></div>
-         <div class="description"><?php echo $fetch_products['description']; ?></div>
+         <button type="submit" class="view-description" name="view_description" value="<?php echo $fetch_products['description']; ?>">View Description</button>
          <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
          <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
+         <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
+      </form>
+      <?php
+         }
+      }else{
+         echo '<p class="empty">no products added yet!</p>';
+      }
+      ?>
+   </div>
+
+   <p class="title" id="tornado-industrial-fan" >Tornado Industrial Fan</p>
+
+   <div class="box-container">
+
+      <?php  
+         $select_products = mysqli_query($conn, "SELECT * FROM `products` WHERE category = 'Tornado Industrial Fan'") or die('query failed');
+         if(mysqli_num_rows($select_products) > 0){
+            while($fetch_products = mysqli_fetch_assoc($select_products)){
+      ?>
+      <form action="product_details.php" method="post" class="box">
+         <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
+         <div class="name"><?php echo $fetch_products['name']; ?></div>
+         <div class="price">PHP <?php echo $fetch_products['price']; ?></div>
+         <button type="submit" class="view-description" name="view_description" value="<?php echo $fetch_products['description']; ?>">View Description</button>
+         <input type="hidden" name="product_name" value="<?php echo $fetch_products['name']; ?>">
+         <input type="hidden" name="product_image" value="<?php echo $fetch_products['image']; ?>">
+         <input type="hidden" name="product_price" value="<?php echo $fetch_products['price']; ?>">
       </form>
       <?php
          }
