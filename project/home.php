@@ -70,9 +70,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/evaporative.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Evaporative Air Cooler</h3>
          </a>
@@ -83,9 +82,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/non-industrial.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Non-Industrial Air Cooler</h3>
          </a>
@@ -96,9 +94,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/industrial-fan.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Industrial Fan</h3>
          </a>
@@ -109,9 +106,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/hvls-fans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>HVLS Industrial Ceiling Fan</h3>
          </a>
@@ -122,9 +118,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/electricfans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Electricfan</h3>
          </a>
@@ -135,9 +130,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/rechargeable-fans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Rechargeable Portable Mini Fan</h3>
          </a>
@@ -148,9 +142,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/ultrasonic-fans.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Ultrasonic Mist Fan</h3>
          </a>
@@ -161,9 +154,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/air-ventilation.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Air Ventilation</h3>
          </a>
@@ -174,9 +166,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/air-curtain.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Air Curtain</h3>
          </a>
@@ -187,9 +178,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/home-appliances.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Home and Kitchen Appliances</h3>
          </a>
@@ -200,9 +190,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/water-dispenser.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Water Dispenser</h3>
          </a>
@@ -213,9 +202,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/vacuum-cleaner.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Vacuum Cleaner</h3>
          </a>
@@ -226,9 +214,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/hand-dryers.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Hand Dryers</h3>
          </a>
@@ -239,9 +226,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/rechargeable-lights.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Rechargeable Emergency Led Lights</h3>
          </a>
@@ -252,9 +238,8 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/tornado-brand.jpeg" alt="">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-viber"></a>
+            <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
          <h3>Tornado Brand</h3>
          </a>
@@ -326,10 +311,6 @@ if(isset($_POST['add_to_cart'])){
    </div>
 
 </section>
-
-
-
-
 
 <?php include 'footer.php'; ?>
 

@@ -717,6 +717,17 @@ section {
   background-color: var(--white);
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .authors .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Adjust grid columns for smaller screens */
+  }
+
+  .authors .box-container .box img {
+    height: 25rem; /* Adjust image height for smaller screens */
+  }
+}
+
 .contact form {
   margin: 0 auto;
   background-color: var(--light-bg);
@@ -990,7 +1001,7 @@ section {
 }
 
 .footer .box-container {
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -1040,12 +1051,97 @@ section {
 /* media queries  */
 
 @media (max-width: 991px) {
-  html {
-    font-size: 55%;
+
+  .authors .box-container {
+    width: 100%; /* Use full width for smaller screens */
+    margin: 0 auto; /* Center the container */
+    display: flex; /* Using flex display */
+    flex-direction: column; /* Stack children vertically */
+    gap: 1rem; /* Adjust gap between boxes */
+}
+
+.authors .box-container .box {
+    width: 100%; /* Full width for each box */
+    margin: 10px 0; /* Add some vertical margin for spacing */
+    height: auto; /* Height auto for content adjustment */
+    border-radius: 0.5rem; /* Optional: Adjust if you want rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Add shadow for better visibility */
+}
+
+.authors .box-container .box img {
+    height: auto; /* Adjust the image height to maintain aspect ratio */
+    max-height: 350px; /* Limit image height */
+}
+
+.authors .box-container .box .share {
+    position: relative; /* Change position from absolute for better mobile interaction */
+    left: auto; /* Reset left positioning */
+    transform: none; /* Remove transform */
+    display: flex; /* Display share icons in a row */
+    justify-content: center; /* Center the icons */
+    margin-top: 20px; /* Space above the share icons */
+}
+
+.authors .box-container .box .share a {
+    margin: 0 5px; /* Space between icons */
+}
+
+.authors .box-container .box h3 {
+    font-size: 1.8rem; /* Reduce the size of the heading for small screens */
+    margin-top: 20px; /* Space above the heading */
+}
+
+
+  .reviews .box-container {
+    width: 450px;
+    flex-direction: column;
   }
+
+  .about .flex .image,
+  .about .flex .content {
+    flex-basis: 90%; /* A little less than full width for some side spacing */
+  }
+
+  .footer .box-container {
+    gap: 2rem; /* Reduce gap */
+  }
+
+  .footer .box-container .box a,
+  .footer .box-container .box p {
+    font-size: 1.5rem; /* Reduce font size */
+    padding: 0.8rem 0; /* Reduce padding */
+  }
+
+  .footer .box-container .box h3 {
+    font-size: 1.8rem; /* Reduce heading font size */
+    padding-bottom: 1.5rem; /* Reduce space below headings */
+  }
+
+
 }
 
 @media (max-width: 768px) {
+
+  .reviews .box-container {
+    width: 450px;
+    flex-direction: column;
+  }
+
+  .sales-info,
+  .sales-info .container,
+  .sales-info .content,
+  .about .flex .image,
+  .about .flex .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sales-info img,
+  .sales-info .content {
+    width: 100%;
+  }
+
   #menu-btn {
     display: inline-block;
   }
@@ -1074,9 +1170,48 @@ section {
   .home .content h3 {
     font-size: 3.5rem;
   }
+
+  .footer .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Allow for smaller column widths */
+  }
+
 }
 
+
 @media (max-width: 450px) {
+
+  .reviews .box-container .box {
+    width: 90%; /* Or any width you prefer */
+    margin: 0 auto; /* Center the box */
+    padding: 20px; /* Optional: Adjust padding to ensure content does not touch the edges */
+}
+
+
+  .reviews .box-container {
+    width: 450px;
+    flex-direction: column;
+  }
+  .about .flex .image img,
+  .sales-info img {
+    width: 100%; /* Make images take full width */
+  }
+
+  .about .flex .content h3,
+  .sales-info h1,
+  .reviews .box h3 {
+    font-size: 2rem; /* Reduce font size for smaller screens */
+  }
+
+  .about .flex .content p,
+  .sales-info p,
+  .reviews .box p {
+    font-size: 1.4rem; /* Reduce paragraph font size for smaller screens */
+  }
+
+  .reviews .box-container .box {
+    flex-basis: 100%; /* Review boxes take full width */
+  }
+
   html {
     font-size: 50%;
   }
@@ -1087,6 +1222,27 @@ section {
 
   .title {
     font-size: 3rem;
+  }
+
+  .footer .box-container {
+    grid-template-columns: 1fr; /* Stack the boxes vertically */
+    padding: 0 2rem; /* Add padding to avoid touching the screen edges */
+  }
+
+  .footer .box-container .box {
+    text-align: center; /* Center-align the content for a better look */
+    width: 450px;
+  }
+
+  .footer .box-container .box a,
+  .footer .box-container .box p {
+    justify-content: center; /* Center-align flex items */
+  }
+
+  .footer .credit {
+    font-size: 1.8rem; /* Adjust font size */
+    padding-top: 1.5rem; /* Reduce padding */
+    margin-top: 1.5rem; /* Reduce margin */
   }
 }
 
@@ -1174,10 +1330,9 @@ section {
 
 .sales-info {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 100px; /* Adjust padding as needed */
-  background-color: #f8f9fa; /* Light background color, similar to example */
+  flex-direction: column; /* Stack elements vertically on smaller screens */
+  align-items: center; /* Center-align the items */
+  padding: 20px; /* Reduce padding for smaller screens */
 }
 
 .sales-info .container {
@@ -1189,15 +1344,17 @@ section {
 }
 
 .sales-info img {
-  width: 50%; /* Adjust based on your preference */
+  width: 80%; /* Adjust based on your preference */
+  margin-bottom: 20px; /* Add margin below the image */
   max-width: 600px; /* Adjust to your image's size */
   border-radius: 10px; /* Optional: Adds rounded corners to your image */
 }
 
 .sales-info .content {
-  width: 50%;
+  width: 100%;
   padding: 20px;
 }
+
 
 .sales-info h1 {
   margin-bottom: 20px; /* Space under the heading */

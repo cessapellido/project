@@ -28,9 +28,8 @@
       <div class="box">
          <h3>follow us</h3>
          <a href="https://www.facebook.com/raymond.mesayra.9"> <i class="fab fa-facebook-f"></i> facebook </a>
-         <a href=""> <i class="fab fa-twitter"></i> twitter </a>
          <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA=="> <i class="fab fa-instagram"></i> instagram </a>
-         <a href="#"> <i class="fab fa-viber"></i> viber </a>
+         <a href="https://msng.link/o?639303891618=vi"> <i class="fab fa-viber"></i> viber </a>
       </div>
 
    </div>

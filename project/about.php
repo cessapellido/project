@@ -73,12 +73,18 @@ function moveSlide(n) {
         <img src="images/sales.jpg" alt="Sales Representative">
         <div class="content">
             <h1>Sales Executive Info</h1>
-            <ul>
-                <li><i class="fas fa-envelope"></i> raymondmagallanes23@gmail.com</li>
-                <li><i class="fas fa-phone"></i> +63 (930) 389 1618</li>
-                <li><i class="fab fa-facebook-f"></i> Raymond Mesayra</li>
-                <li><i class="fas fa-home"></i> sampaloc, manila - 400104</li>
-            </ul>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;"> <!-- Changed to align items to the start (top) -->
+                <ul style="flex: 1; margin-right: 20px;"> <!-- Adjusted margin to give space -->
+                    <li style="white-space: nowrap;"><i class="fas fa-envelope"></i> raymondmagallanes23@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +63 (945) 473 8252</li>
+                    <li><i class="fab fa-facebook-f"></i> Raymond Mesayra</li>
+                    <li><i class="fas fa-home"></i> sampaloc, manila - 400104</li>
+                    <li><a href="https://msng.link/o?639303891618=vi"><i class="fab fa-viber"></i> +63 (930) 389 1618</a></li>
+                </ul>
+                <div style="display: flex; justify-content: flex-end; align-items: flex-start;"> <!-- Adjusted for QR code alignment -->
+                    <img src="images/Iwata.png" alt="Iwata Philippines via Viber" style="max-width: 250px; height: auto;">
+                </div>
+            </div>
             <p>Raymond Mesayra is a dedicated Sales Executive at IWATA, known for delivering exceptional customer service. With years of experience under his belt, Raymond has become proficient in understanding client needs and providing tailored solutions. He stands out for his responsiveness and commitment to assisting clients through every step of their purchasing journey. His approachable demeanor and in-depth product knowledge make him a reliable point of contact for customers seeking advice and support. Whether you are a new customer exploring IWATA's offerings or a returning client, Raymond is there to ensure a seamless and satisfying experience.</p>
             <a href="contact.php" class="btn">Keep In Touch</a>
         </div>
