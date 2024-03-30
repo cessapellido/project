@@ -37,7 +37,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Shop</title>
+   <title>Shop | Iwata Appliances</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -56,10 +56,12 @@ if(isset($_POST['add_to_cart'])){
    <!-- Slider Container -->
    <div class="slider">
     <div class="slides">
-        <div class="slide"><img src="images/cover1.jpg" alt="Image 1"></div>
-        <div class="slide"><img src="images/cover2.jpg" alt="Image 2"></div>
-        <div class="slide"><img src="images/cover3.jpg" alt="Image 3"></div>
-        <div class="slide"><img src="images/cover5.jpg" alt="Image 5"></div>
+         <div class="slide"><img src="images/Iwata-Appliances-Set-1.jpg" alt="Iwata Philippines Office Equipment Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-2.jpg" alt="Iwata Philippines Water Dispenser Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-3.jpg" alt="Iwata Philippines Air Ventilation Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-4.jpg" alt="Iwata Philippines Vacuum Cleaner Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-5.jpg" alt="Iwata Philippines Industrial Fan Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-6.jpg" alt="Iwata Philippines Industrial Ceiling Fan Products"></div>
     </div>
     <!-- Optional: Navigation Arrows
     <a class="prev" onclick="moveSlide(-1)">&#10094;</a>

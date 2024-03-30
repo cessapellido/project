@@ -36,7 +36,7 @@ if(isset($_POST['add_to_cart'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Home</title>
+   <title>Home | Iwata Appliances</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -54,7 +54,7 @@ if(isset($_POST['add_to_cart'])){
    <div class="content">
       <h3>SHOP AT HOME</h3>
       <p>Home Solutions, One Click Away!</p>
-      <a href="about.php" class="white-btn">discover more</a>
+      <a href="about.php" class="white-btn">Discover More</a>
    </div>
 
 </section>
@@ -67,7 +67,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
          <a href = "shop.php#evaporative-coolers">
-         <img src="images/evaporative.jpeg" alt="">
+         <img src="images/Iwata-Home-Evaporative.jpeg" alt="Iwata Appliances Evaporative">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -79,7 +79,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#non-industrial-coolers">
-         <img src="images/non-industrial.jpeg" alt="">
+         <img src="images/Iwata-Home-Non-industrial.jpeg" alt="Iwata Appliances Non-industrial">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -91,7 +91,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#industrial-fans">
-         <img src="images/industrial-fan.jpeg" alt="">
+         <img src="images/Iwata-Home-Industrial-fan.jpeg" alt="Iwata Appliances Industrial fan">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -103,7 +103,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#hvls-fans">
-         <img src="images/hvls-fans.jpeg" alt="">
+         <img src="images/Iwata-Home-Hvls-fans.jpeg" alt="Iwata Appliances Industrial Ceiling Fan">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -115,7 +115,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#electricfans">
-         <img src="images/electricfans.jpeg" alt="">
+         <img src="images/Iwata-Home-Electricfans.jpeg" alt="Iwata Appliances Electricfan">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -127,7 +127,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#rechargeable-fans">
-         <img src="images/rechargeable-fans.jpeg" alt="">
+         <img src="images/Iwata-Home-Rechargeable-fans.jpeg" alt="Iwata Appliances Rechargeable Fans">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -139,7 +139,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#ultrasonic-fans">
-         <img src="images/ultrasonic-fans.jpeg" alt="">
+         <img src="images/Iwata-Home-Ultrasonic-fans.jpeg" alt="Iwata Appliances Ultrasonic Fans">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -151,7 +151,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#air-ventilation">
-         <img src="images/air-ventilation.jpeg" alt="">
+         <img src="images/Iwata-Home-Air-ventilation.jpeg" alt="Iwata Appliances Air Ventilation">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -163,7 +163,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#air-curtain">
-         <img src="images/air-curtain.jpeg" alt="">
+         <img src="images/Iwata-Home-Air-curtain.jpeg" alt="Iwata Appliances Air Curtain">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -175,7 +175,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#home-appliances">
-         <img src="images/home-appliances.jpeg" alt="">
+         <img src="images/Iwata-Home-Kitchen-Appliances.jpeg" alt="Iwata Home and Kitchen Appliances">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -187,7 +187,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#water-dispenser">
-         <img src="images/water-dispenser.jpeg" alt="">
+         <img src="images/Iwata-Home-Water-Dispenser.jpeg" alt="Iwata Appliances Water Dispenser">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -199,7 +199,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#vacuum-cleaner">
-         <img src="images/vacuum-cleaner.jpeg" alt="">
+         <img src="images/Iwata-Home-Vacuum-Cleaner.jpeg" alt="Iwata Appliances Vacuum Cleaner">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -211,7 +211,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#hand-dryers">
-         <img src="images/hand-dryers.jpeg" alt="">
+         <img src="images/Iwata-Home-Hand-Dryer.jpeg" alt="Iwata Appliances Hand Dryer">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -223,7 +223,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#rechargeable-lights">
-         <img src="images/rechargeable-lights.jpeg" alt="">
+         <img src="images/Iwata-Home-Rechargeable-Lights.jpeg" alt="Iwata Appliances Rechargeable Light">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -235,7 +235,7 @@ if(isset($_POST['add_to_cart'])){
 
       <div class="box">
       <a href = "shop.php#tornado-brand">
-         <img src="images/tornado-brand.jpeg" alt="">
+         <img src="images/Iwata-Home-Tornado-Brand.jpeg" alt="Iwata Appliances Tornado Brand">
          <div class="share">
             <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
@@ -252,7 +252,7 @@ if(isset($_POST['add_to_cart'])){
 
 <section class="products">
 
-   <h1 class="title">latest products</h1>
+   <h1 class="title">Latest Products</h1>
 
    <div class="box-container">
 
@@ -262,7 +262,7 @@ if(isset($_POST['add_to_cart'])){
             while($fetch_products = mysqli_fetch_assoc($select_products)){
       ?>
      <form action="product_details.php" method="post" class="box">
-     <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
+     <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="Iwata Products">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">PHP <?php echo $fetch_products['price']; ?></div>
          <button type="submit" class="view-description" name="view_description" value="<?php echo $fetch_products['description']; ?>">View Description</button>
@@ -279,7 +279,7 @@ if(isset($_POST['add_to_cart'])){
    </div>
 
    <div class="load-more" style="margin-top: 2rem; text-align:center">
-      <a href="shop.php" class="option-btn">load more</a>
+      <a href="shop.php" class="option-btn">Load More</a>
    </div>
 
 </section>
@@ -289,25 +289,26 @@ if(isset($_POST['add_to_cart'])){
    <div class="flex">
 
       <div class="image">
-         <img src="images/all-in-appliances.jpeg" alt="">
+         <img src="images/Iwata-Home-All-Appliances.jpeg" alt="Iwata Appliances">
       </div>
 
       <div class="content">
-         <h3>about us</h3>
-         <p>Welcome to Iwata Appliances - Your Ultimate Destination for Innovative Home Solutions! Founded in 2006, Iwata Appliances began with a simple vision: to offer high-quality, innovative home appliances that make daily living more comfortable and efficient. </p>
-         <a href="about.php" class="btn">read more</a>
+         <h3>About Us</h3>
+         <p>Welcome to Iwata Appliances - Your Ultimate Destination for Innovative Home Solutions! Founded in 2006, Iwata Appliances began with a simple vision: to offer high-quality, innovative home appliances that make daily living more comfortable and efficient.</p>
+         <a href="about.php" class="btn">Read More</a>
       </div>
 
    </div>
 
 </section>
 
+
 <section class="home-contact">
 
    <div class="content">
-      <h3>have any questions?</h3>
+      <h3>Have any questions?</h3>
       <p>Do you have any questions about our products? Ask away! Get in touch with me through any of the available different platforms and channels, and I'd be more than happy to assist you and meet your home appliances needs!</p>
-      <a href="contact.php" class="white-btn">contact us</a>
+      <a href="contact.php" class="white-btn">Contact Us</a>
    </div>
 
 </section>

@@ -25,12 +25,12 @@ if(isset($message)){
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Iwata.Appliances</a>
+         <a href="home.php" class="logo">Iwata Appliances</a>
          <nav class="navbar">
             <a href="home.php">Home</a>
-            <a href="about.php">About</a>
+            <a href="about.php">About Us</a>
             <a href="shop.php">Shop</a>
-            <a href="contact.php">Contact</a>
+            <a href="contact.php">Contact Us</a>
             <div class="dropdown">
                <a href="javascript:void(0)">Products</a>
                <div class="dropdown-content">

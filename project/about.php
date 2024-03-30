@@ -18,7 +18,7 @@ $user_id= isset($user_id) ? $user_id:"User";
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>About</title>
+   <title>About Us | Iwata Appliances</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -37,10 +37,12 @@ $user_id= isset($user_id) ? $user_id:"User";
    <!-- Slider Container -->
    <div class="slider">
     <div class="slides">
-        <div class="slide"><img src="images/cover1.jpg" alt="Image 1"></div>
-        <div class="slide"><img src="images/cover2.jpg" alt="Image 2"></div>
-        <div class="slide"><img src="images/cover3.jpg" alt="Image 3"></div>
-        <div class="slide"><img src="images/cover5.jpg" alt="Image 5"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-1.jpg" alt="Iwata Philippines Office Equipment Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-2.jpg" alt="Iwata Philippines Water Dispenser Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-3.jpg" alt="Iwata Philippines Air Ventilation Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-4.jpg" alt="Iwata Philippines Vacuum Cleaner Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-5.jpg" alt="Iwata Philippines Industrial Fan Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-6.jpg" alt="Iwata Philippines Industrial Ceiling Fan Products"></div>
     </div>
     <!-- Optional: Navigation Arrows
     <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
@@ -70,7 +72,7 @@ function moveSlide(n) {
 
 <section class="sales-info">
     <div class="container">
-        <img src="images/sales.jpg" alt="Sales Representative">
+        <img src="images/Iwata-Raymond.jpg" alt="Iwata Philippines Sales Representative">
         <div class="content">
             <h1>Sales Executive Info</h1>
             <div style="display: flex; justify-content: space-between; align-items: flex-start;"> <!-- Changed to align items to the start (top) -->
@@ -82,7 +84,7 @@ function moveSlide(n) {
                     <li><a href="https://msng.link/o?639303891618=vi"><i class="fab fa-viber"></i> +63 (930) 389 1618</a></li>
                 </ul>
                 <div style="display: flex; justify-content: flex-end; align-items: flex-start;"> <!-- Adjusted for QR code alignment -->
-                    <img src="images/Iwata.png" alt="Iwata Philippines via Viber" style="max-width: 250px; height: auto;">
+                    <img src="images/Iwata-Viber.png" alt="Iwata Philippines via Viber" style="max-width: 250px; height: auto;">
                 </div>
             </div>
             <p>Raymond Mesayra is a dedicated Sales Executive at IWATA, known for delivering exceptional customer service. With years of experience under his belt, Raymond has become proficient in understanding client needs and providing tailored solutions. He stands out for his responsiveness and commitment to assisting clients through every step of their purchasing journey. His approachable demeanor and in-depth product knowledge make him a reliable point of contact for customers seeking advice and support. Whether you are a new customer exploring IWATA's offerings or a returning client, Raymond is there to ensure a seamless and satisfying experience.</p>
@@ -97,7 +99,7 @@ function moveSlide(n) {
    <div class="flex">
 
       <div class="image">
-         <img src="images/About-pic.jpg" alt="">
+         <img src="images/Iwata-Philosopy.jpg" alt="Iwata Philippines Products">
       </div>
 
       <div class="content">
@@ -109,7 +111,6 @@ function moveSlide(n) {
          <p>Customer Focus: Your satisfaction is our priority. We offer excellent customer service and support to ensure a seamless experience.</p>
          <a href="contact.php" class="btn">contact us</a>
       </div>
-
    </div>
 
 </section>
@@ -121,8 +122,8 @@ function moveSlide(n) {
    <div class="box-container">
 
       <div class="box">
-         <img src="images/author-2.jpg" alt="">
-         <p>Thank you for very good service and to your good quality product</p>
+         <img src="images/Iwata-Testimonial-1.jpg" alt="Iwata Philippines Clients Testimonial">
+         <p>Thank you for very good service and to your good quality product Iwata Appliances.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -134,8 +135,8 @@ function moveSlide(n) {
       </div>
 
       <div class="box">
-         <img src="images/author-1.jpg" alt="">
-         <p>Raymond is the right sales person for IWATA, providing immediate delivery and technical support for your unit, maraming salamat Raymond</p>
+         <img src="images/Iwata-Testimonial-2.jpg" alt="Iwata Philippines Clients Testimonial">
+         <p>Mr. Raymond is the right sales person for Iwata Philippines, providing immediate delivery and technical support for your unit, maraming salamat Raymond</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -147,8 +148,8 @@ function moveSlide(n) {
       </div>
 
       <div class="box">
-         <img src="images/author-3.jpg" alt="">
-         <p>As promised by the Vice President Sara Duterte when she visited the Municipality of Jordan las Aug 25, 2022, the industrial ceiling fan is now inside Jordan Municipal Covered Gym. Hon. Cresente "Engue" P. Chavez, Jr. and the people of the Municipality of Jordan is very greatful of your assistance. </p>
+         <img src="images/Iwata-Testimonial-3.jpg" alt="Iwata Philippines Clients Testimonial">
+         <p>As promised by the Vice President Sara Duterte when she visited the Municipality of Jordan las Aug 25, 2022, the Industrial Ceiling Fan is now inside Jordan Municipal Covered Gym. Hon. Cresente "Engue" P. Chavez, Jr. and the people of the Municipality of Jordan is very greatful of your assistance. </p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -156,12 +157,12 @@ function moveSlide(n) {
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
          </div>
-         <h3>LGU Jordan</h3>
+         <h3>LGU, Municipality of Jordan</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-6.jpg" alt="">
-         <p>I highly recommend Reymund. He never fails to help me with our orders. He also makes sure that we are well assisted even if he is not at work. Excellent Customer Service!</p>
+         <img src="images/Iwata-Testimonial-4.jpg" alt="Iwata Philippines Clients Testimonial">
+         <p>I highly recommend Mr. Raymond. He never fails to help me with our orders. He also makes sure that we are well assisted even if he is not at work. Excellent Customer Service!</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -173,8 +174,8 @@ function moveSlide(n) {
       </div>
 
       <div class="box">
-         <img src="images/author-5.jpg" alt="">
-         <p>I highly recommend Raymond Mesayra. Quick shipping, quality products, and superb customer service. A reliable seller! Thank you</p>
+         <img src="images/Iwata-Testimonial-5.jpg" alt="Iwata Philippines Clients Testimonial">
+         <p>I highly recommend Mr. Raymond Mesayra. Quick shipping, quality products, and superb customer service. A reliable seller! Thank you</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -186,7 +187,7 @@ function moveSlide(n) {
       </div>
 
       <div class="box">
-         <img src="images/author-4.jpg" alt="">
+         <img src="images/Iwata-Testimonial-6.jpg" alt="Iwata Philippines Clients Testimonial">
          <p>Sellers Strength: Punctuality, Communication and Fair Pricing</p>
          <div class="stars">
             <i class="fas fa-star"></i>

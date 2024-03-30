@@ -36,7 +36,7 @@ if(isset($_POST['send'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Contact</title>
+   <title>Contact Us | Iwata Appliances</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -55,10 +55,12 @@ if(isset($_POST['send'])){
    <!-- Slider Container -->
    <div class="slider">
     <div class="slides">
-        <div class="slide"><img src="images/cover1.jpg" alt="Image 1"></div>
-        <div class="slide"><img src="images/cover2.jpg" alt="Image 2"></div>
-        <div class="slide"><img src="images/cover3.jpg" alt="Image 3"></div>
-        <div class="slide"><img src="images/cover5.jpg" alt="Image 5"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-1.jpg" alt="Iwata Philippines Office Equipment Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-2.jpg" alt="Iwata Philippines Water Dispenser Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-3.jpg" alt="Iwata Philippines Air Ventilation Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-4.jpg" alt="Iwata Philippines Vacuum Cleaner Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-5.jpg" alt="Iwata Philippines Industrial Fan Products"></div>
+        <div class="slide"><img src="images/Iwata-Appliances-Set-6.jpg" alt="Iwata Philippines Industrial Ceiling Fan Products"></div>
     </div>
     <!-- Optional: Navigation Arrows
     <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
@@ -88,12 +90,12 @@ function moveSlide(n) {
 
 <section class="contact">
 
-   <form action="" method="post">
-      <h3>say something!</h3>
-      <input type="text" name="name" required placeholder="enter your name" class="box">
-      <input type="email" name="email" required placeholder="enter your email" class="box">
-      <input type="number" name="number" required placeholder="enter your number" class="box">
-      <textarea name="message" class="box" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+   <form method="post">
+      <h3>Say something!</h3>
+      <input type="text" name="name" required placeholder="Enter your name" class="box">
+      <input type="email" name="email" required placeholder="Enter your email" class="box">
+      <input type="number" name="number" required placeholder="Enter your number" class="box">
+      <textarea name="message" class="box" placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
       <input type="submit" value="send message" name="send" class="btn">
    </form>
 

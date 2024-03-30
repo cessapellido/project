@@ -42,7 +42,8 @@
   background-color: var(--night-blue);
 }
 
-html {
+html,
+body {
   font-size: 62.5%;
   overflow-x: hidden;
 }
@@ -168,8 +169,6 @@ section {
   height: auto; /* Adjust height automatically to maintain aspect ratio */
   object-fit: cover; /* Cover the area of the container without stretching. Note: this may crop the image */
 }
-
-
 
 .heading h3 {
   font-size: 5rem;
@@ -322,7 +321,7 @@ section {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -381,7 +380,7 @@ section {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -392,7 +391,9 @@ section {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .header .header-2 .flex .user-box {
   position: absolute;
@@ -437,11 +438,17 @@ section {
   left: 100%;
   top: 0;
   background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-.header .header-2 .flex .dropdown .dropdown-content .dropdown:hover .dropdown-content {
+.header
+  .header-2
+  .flex
+  .dropdown
+  .dropdown-content
+  .dropdown:hover
+  .dropdown-content {
   display: block;
 }
 
@@ -514,8 +521,6 @@ section {
   object-fit: contain; /* Prevents image distortion */
   margin-bottom: 10px; /* Space between image and text */
 }
-
-
 
 .products .box-container .box .name {
   padding: 1rem 0;
@@ -720,7 +725,10 @@ section {
 /* Media Queries */
 @media (max-width: 768px) {
   .authors .box-container {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Adjust grid columns for smaller screens */
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(15rem, 1fr)
+    ); /* Adjust grid columns for smaller screens */
   }
 
   .authors .box-container .box img {
@@ -1051,47 +1059,45 @@ section {
 /* media queries  */
 
 @media (max-width: 991px) {
-
   .authors .box-container {
     width: 100%; /* Use full width for smaller screens */
     margin: 0 auto; /* Center the container */
     display: flex; /* Using flex display */
     flex-direction: column; /* Stack children vertically */
     gap: 1rem; /* Adjust gap between boxes */
-}
+  }
 
-.authors .box-container .box {
+  .authors .box-container .box {
     width: 100%; /* Full width for each box */
     margin: 10px 0; /* Add some vertical margin for spacing */
     height: auto; /* Height auto for content adjustment */
     border-radius: 0.5rem; /* Optional: Adjust if you want rounded corners */
     overflow: hidden; /* Hide overflow */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional: Add shadow for better visibility */
-}
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
+  }
 
-.authors .box-container .box img {
+  .authors .box-container .box img {
     height: auto; /* Adjust the image height to maintain aspect ratio */
     max-height: 350px; /* Limit image height */
-}
+  }
 
-.authors .box-container .box .share {
+  .authors .box-container .box .share {
     position: relative; /* Change position from absolute for better mobile interaction */
     left: auto; /* Reset left positioning */
     transform: none; /* Remove transform */
     display: flex; /* Display share icons in a row */
     justify-content: center; /* Center the icons */
     margin-top: 20px; /* Space above the share icons */
-}
+  }
 
-.authors .box-container .box .share a {
+  .authors .box-container .box .share a {
     margin: 0 5px; /* Space between icons */
-}
+  }
 
-.authors .box-container .box h3 {
+  .authors .box-container .box h3 {
     font-size: 1.8rem; /* Reduce the size of the heading for small screens */
     margin-top: 20px; /* Space above the heading */
-}
-
+  }
 
   .reviews .box-container {
     width: 450px;
@@ -1117,12 +1123,9 @@ section {
     font-size: 1.8rem; /* Reduce heading font size */
     padding-bottom: 1.5rem; /* Reduce space below headings */
   }
-
-
 }
 
 @media (max-width: 768px) {
-
   .reviews .box-container {
     width: 450px;
     flex-direction: column;
@@ -1172,20 +1175,19 @@ section {
   }
 
   .footer .box-container {
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Allow for smaller column widths */
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(20rem, 1fr)
+    ); /* Allow for smaller column widths */
   }
-
 }
 
-
 @media (max-width: 450px) {
-
   .reviews .box-container .box {
     width: 90%; /* Or any width you prefer */
     margin: 0 auto; /* Center the box */
     padding: 20px; /* Optional: Adjust padding to ensure content does not touch the edges */
-}
-
+  }
 
   .reviews .box-container {
     width: 450px;
@@ -1246,7 +1248,6 @@ section {
   }
 }
 
-
 /* Add your custom CSS styles here */
 /* Add your custom CSS styles here */
 .product-details {
@@ -1264,12 +1265,12 @@ section {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product-image img {
   width: 300px;
-  height:300px;
+  height: 300px;
   border-radius: 10px;
 }
 
@@ -1281,7 +1282,7 @@ section {
 .product-title {
   font-size: 5rem;
   margin: 20px 0;
-  color: var(--columbia-blue)
+  color: var(--columbia-blue);
 }
 
 .product-description {
@@ -1305,7 +1306,6 @@ section {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
 }
 
-
 .add-to-cart-btn:hover {
   background-color: #dc2f2f;
 }
@@ -1313,20 +1313,19 @@ section {
 @media (min-width: 768px) {
   .product-image img {
     max-width: 800px; /* Larger images on wider screens */
-}
+  }
 
   .product-container {
-      flex-direction: row;
+    flex-direction: row;
   }
-  .product-image, .product-info {
-      flex: 1;
+  .product-image,
+  .product-info {
+    flex: 1;
   }
   .product-image {
-      margin-right: 50px;
+    margin-right: 50px;
   }
 }
-
-
 
 .sales-info {
   display: flex;
@@ -1354,7 +1353,6 @@ section {
   width: 100%;
   padding: 20px;
 }
-
 
 .sales-info h1 {
   margin-bottom: 20px; /* Space under the heading */
