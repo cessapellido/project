@@ -51,7 +51,7 @@ if(isset($_POST['send'])){
 
 <div class="heading">
    <h3>Contact Us</h3>
-   <!-- <p class="slider-nav"><a href="home.php">home</a> / shop</p> -->
+   <!-- <p class="slider-nav"><a href="index.php">home</a> / shop</p> -->
    <!-- Slider Container -->
    <div class="slider">
     <div class="slides">

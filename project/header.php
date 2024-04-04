@@ -16,8 +16,8 @@ if(isset($message)){
    <div class="header-1">
       <div class="flex">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-instagram"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
+            <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
       </div>
@@ -25,9 +25,9 @@ if(isset($message)){
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Iwata Appliances</a>
+         <a href="index.php" class="logo">Iwata Appliances</a>
          <nav class="navbar">
-            <a href="home.php">Home</a>
+            <a href="index.php">Home</a>
             <a href="about.php">About Us</a>
             <a href="shop.php">Shop</a>
             <a href="contact.php">Contact Us</a>
@@ -63,7 +63,7 @@ if(isset($message)){
             <div id="menu-btn" class="fas fa-bars"></div>
 
             <div id="dropdown-menu" class="dropdown-content">
-               <a href="home.php">Home</a>
+               <a href="index.php">Home</a>
                <a href="about.php">About</a>
                <a href="shop.php">Shop</a>
                <a href="contact.php">Contact</a>

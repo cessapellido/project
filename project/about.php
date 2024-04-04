@@ -33,7 +33,7 @@ $user_id= isset($user_id) ? $user_id:"User";
 
 <div class="heading">
    <h3>About Us</h3>
-   <!-- <p class="slider-nav"><a href="home.php">home</a> / shop</p> -->
+   <!-- <p class="slider-nav"><a href="index.php">home</a> / shop</p> -->
    <!-- Slider Container -->
    <div class="slider">
     <div class="slides">
@@ -80,7 +80,7 @@ function moveSlide(n) {
                     <li style="white-space: nowrap;"><i class="fas fa-envelope"></i> raymondmagallanes23@gmail.com</li>
                     <li><i class="fas fa-phone"></i> +63 (945) 473 8252</li>
                     <li><i class="fab fa-facebook-f"></i> Raymond Mesayra</li>
-                    <li><i class="fas fa-home"></i> sampaloc, manila - 400104</li>
+                    <li><i class="fas fa-home"></i>Suite 200 Del Monte Mansion Bldg. Del Monte Avenue, Cor. 210 Speaker Perez Street, Brgy. Maharlika, Quezon City, Metro Manila</li>
                     <li><a href="https://msng.link/o?639303891618=vi"><i class="fab fa-viber"></i> +63 (930) 389 1618</a></li>
                 </ul>
                 <div style="display: flex; justify-content: flex-end; align-items: flex-start;"> <!-- Adjusted for QR code alignment -->

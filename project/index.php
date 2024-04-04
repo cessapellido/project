@@ -69,7 +69,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Evaporative.jpeg" alt="Iwata Appliances Evaporative">
          <div href = "shop.php#evaporative-coolers" class="share">
             <a href = "shop.php#evaporative-coolers" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -81,7 +81,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Non-industrial.jpeg" alt="Iwata Appliances Non-industrial">
          <div class="share">
             <a href = "shop.php#non-industrial-coolers" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -94,7 +94,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Industrial-fan.jpeg" alt="Iwata Appliances Industrial fan">
          <div class="share">
             <a href = "shop.php#industrial-fans" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -107,7 +107,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Hvls-fans.jpeg" alt="Iwata Appliances Industrial Ceiling Fan">
          <div class="share">
             <a href = "shop.php#hvls-fans" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -120,7 +120,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Electricfans.jpeg" alt="Iwata Appliances Electricfan">
          <div class="share">
             <a href = "shop.php#electricfans" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -133,7 +133,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Rechargeable-fans.jpeg" alt="Iwata Appliances Rechargeable Fans">
          <div class="share">
             <a href = "shop.php#rechargeable-fans" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -146,7 +146,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Ultrasonic-fans.jpeg" alt="Iwata Appliances Ultrasonic Fans">
          <div class="share">
             <a href = "shop.php#ultrasonic-fans" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -159,7 +159,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Air-ventilation.jpeg" alt="Iwata Appliances Air Ventilation">
          <div class="share">
             <a href = "shop.php#air-ventilation" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -172,7 +172,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Air-curtain.jpeg" alt="Iwata Appliances Air Curtain">
          <div class="share">
             <a href = "shop.php#air-curtain" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -185,7 +185,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Kitchen-Appliances.jpeg" alt="Iwata Home and Kitchen Appliances">
          <div class="share">
             <a href = "shop.php#home-appliances" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -198,7 +198,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Water-Dispenser.jpeg" alt="Iwata Appliances Water Dispenser">
          <div class="share">
             <a href = "shop.php#water-dispenser" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -211,7 +211,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Vacuum-Cleaner.jpeg" alt="Iwata Appliances Vacuum Cleaner">
          <div class="share">
             <a href = "shop.php#vacuum-cleaner" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -224,7 +224,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Hand-Dryer.jpeg" alt="Iwata Appliances Hand Dryer">
          <div class="share">
             <a href = "shop.php#hand-dryers" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -237,7 +237,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Rechargeable-Lights.jpeg" alt="Iwata Appliances Rechargeable Light">
          <div class="share">
             <a href = "shop.php#rechargeable-lights" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>
@@ -250,7 +250,7 @@ if(isset($_POST['add_to_cart'])){
          <img src="images/Iwata-Home-Tornado-Brand.jpeg" alt="Iwata Appliances Tornado Brand">
          <div class="share">
             <a href = "shop.php#tornado-brand" class="fa fa-shopping-bag">
-            <a href="https://www.facebook.com/raymond.mesayra.9" class="fab fa-facebook-f"></a>
+            <a href="https://www.facebook.com/IWATAmain11152021" class="fab fa-facebook-f"></a>
             <a href="https://www.instagram.com/raym_ondmagallanes?igsh=OGQ5ZDc2ODk2ZA==" class="fab fa-instagram"></a>
             <a href="https://msng.link/o?639303891618=vi" class="fab fa-viber"></a>
          </div>

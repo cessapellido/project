@@ -1017,6 +1017,9 @@ section {
 }
 
 .footer .box-container .box h3 {
+  text-align: left ; /* Centers the header text */
+  width: 100%; /* Ensures the header takes full width */
+  margin-bottom: 1rem; /* Adds space below the header */
   text-transform: uppercase;
   color: var(--charcoal-blue);
   font-size: 2rem;
